@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES2020", // Or newer, depending on your Node version
+      "module": "NodeNext", // Use modern Node.js module system
+      "moduleResolution": "NodeNext",
+      "outDir": "./dist", // Output compiled JS to a 'dist' folder
+      "rootDir": "./src", // Specify 'src' as the root of your TS source
+      "strict": true, // Enable strict type checking (recommended)
+      "esModuleInterop": true, // Allows default imports from commonjs modules
+      "skipLibCheck": true, // Skip type checking of declaration files (speeds up compile)
+      "forceConsistentCasingInFileNames": true,
+      "sourceMap": true // Generate source maps for easier debugging
+    },
+    "include": ["src/**/*"], // Only compile files within the src directory
+    "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"] // Exclude node_modules and test files
+  }
