@@ -1,6 +1,7 @@
 {
   "name": "mcp-playwright-server",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "dist/server.js",
   "scripts": {
